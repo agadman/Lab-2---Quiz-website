@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2 - Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+     <h1>Quiz - Funny Facts about the United States</h1>
+  </header>
+  <main>
+    <form>
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName">
+    
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName">
+    
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+    
+      <div>
+        <div>
+          <h2>Question 1: What is the official state vegetable of Oklahoma?</h2>
+          <ul>
+            <li><input type="radio" name="question1" value="carrot"> Carrot</li>
+            <li><input type="radio" name="question1" value="watermelon"> Watermelon</li>
+            <li><input type="radio" name="question1" value="sweet-potato"> Sweet Potato</li>
+          </ul>
+        </div>
+    
+        <div>
+          <h2>Question 2: Which U.S. state has the most donut shops per capita?</h2>
+          <ul>
+            <li><input type="radio" name="question2" value="california"> California</li>
+            <li><input type="radio" name="question2" value="massachusetts"> Massachusetts</li>
+            <li><input type="radio" name="question2" value="new-york"> New York</li>
+          </ul>
+        </div>
+    
+        <div>
+          <h2>Question 3: How many stripes are there on the American flag?</h2>
+          <input type="text" name="question3" placeholder="Enter your answer">
+        </div>
+    
+        <div>
+          <h2>Question 4: Which U.S. president had a pet alligator?</h2>
+          <ul>
+            <li><input type="checkbox" name="question4" value="george-washington"> George Washington</li>
+            <li><input type="checkbox" name="question4" value="john-adams"> John Adams</li>
+            <li><input type="checkbox" name="question4" value="john-quincy-adams"> John Quincy Adams</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Question 5: Which of the following are official state animals of Texas? (Select all that apply)</h2>
+          <ul>
+            <li class="option"><input type="checkbox" name="question5" value="armadillo"> Armadillo</li>
+            <li class="option"><input type="checkbox" name="question5" value="longhorn"> Longhorn</li>
+            <li class="option"><input type="checkbox" name="question5" value="jackrabbit"> Jackrabbit</li>
+          </ul>
+        </div>
+        
+        <div>
+          <h2>Question 5: Which U.S. state is famous for its "Mystery Spot"? (Enter your answer)</h2>
+          <input type="text" name="question6" placeholder="Enter your answer">
+        </div>
+        <button>Submit Quiz</button>
+      </div>
+    </form>
+  </main>
+</body>
+</html>
