@@ -27,17 +27,16 @@ main {
 h2 {
     font-size: 1rem;
     margin-bottom: 10px;
-}
+  }
 form {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
     padding: 20px;
   }
-  label {
+label {
     margin-bottom: 8px;
   }
-
 input {
     padding: 8px;
     margin-bottom: 16px;
@@ -47,7 +46,7 @@ input {
     padding: 0;
     display: flex;
     flex-direction: column;
-}
+  }
 .option {
     margin-bottom: 10px;
   }
@@ -56,7 +55,7 @@ input {
   }
 .textInput {
     width: 100%;
-}
+  }
 select {
   padding: 8px;
   margin-bottom: 16px;
@@ -81,54 +80,49 @@ button:hover {
     background-color: #ff4e43;
   }
 .required::after {
-  content: '*';
-  color: red;
-  margin-left: 4px;
-}
-
+    content: '*';
+    color: red;
+    margin-left: 4px;
+  }
 #summaryContainer {
-  display: none;
-  margin-top: 20px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background-color: #f9f9f9;
-}
-
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
 #correctAnswers {
-  font-weight: bold;
-  color: #008000; 
-}
-
+    font-weight: bold;
+    color: #008000; 
+  }
 #totalQuestions {
-  margin-top: 10px;
-  font-weight: bold;
-}
-
+    margin-top: 10px;
+    font-weight: bold;
+  }
 #answersList {
-  margin: 20px 0 0 20px;
-  padding: 0;
-}
-
+    margin: 20px 0 0 20px;
+    padding: 0;
+  }
 #answersList li {
-  margin-bottom: 5px;
-}
-
+    margin-bottom: 5px;
+  }
 #answersList ul {
-  list-style-type: disc;
-  margin-left: 20px;
-}
+    list-style-type: disc;
+    margin-left: 20px;
+  }
 #errorQuestionValidation {
-  margin-bottom: 20px;
-}
+    margin-bottom: 20px;
+    color: red;
+  }
 #errorMessages {
-  background-color: #ffecec; /* Light red background color */
-  color: #d93025; /* Dark red text color */
-  border: 1px solid #d93025; /* Dark red border */
-  padding: 10px;
-  margin-bottom: 15px;
-  border-radius: 5px;
-}
+    background-color: #ffecec; /* Light red background color */
+    color: #d93025; /* Dark red text color */
+    border: 1px solid #d93025; /* Dark red border */
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
 #errorMessages p {
-  margin: 0;
-}
+    margin: 0;
+  }
