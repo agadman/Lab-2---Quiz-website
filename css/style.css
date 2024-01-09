@@ -57,6 +57,14 @@ input {
 .textInput {
     width: 100%;
 }
+select {
+  padding: 8px;
+  margin-bottom: 16px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 #buttonContainer {
     text-align: center;
 }
@@ -112,4 +120,15 @@ button:hover {
 }
 #errorQuestionValidation {
   margin-bottom: 20px;
+}
+#errorMessages {
+  background-color: #ffecec; /* Light red background color */
+  color: #d93025; /* Dark red text color */
+  border: 1px solid #d93025; /* Dark red border */
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+#errorMessages p {
+  margin: 0;
 }

@@ -13,13 +13,15 @@
   <main>
     <form id="form">
       <label for="firstName" class="required">First Name:</label>
-      <input type="text" id="firstName" name="firstName" required pattern="[A-Za-z]+" title="Only letters are allowed">
+      <input type="text" id="firstName" name="firstName">
     
       <label for="lastName" class="required">Last Name:</label>
-      <input type="text" id="lastName" name="lastName" required pattern="[A-Za-z]+" title="Only letters are allowed">
+      <input type="text" id="lastName" name="lastName">
     
       <label for="email" class="required">Email:</label>
-      <input type="email" id="email" name="email" required>
+      <input type="email" id="email" name="email">
+
+      <div id="errorMessages"></div>
     
       <div>
         <div class="question">
@@ -48,9 +50,9 @@
         <div class="question">
           <h2 class="required">Question 4: Which U.S. president had a pet alligator?</h2>
           <ul class="options">
-            <li class="option"><input type="checkbox" name="question4" value="george-washington"> George Washington</li>
-            <li class="option"><input type="checkbox" name="question4" value="john-adams"> John Adams</li>
-            <li class="option"><input type="checkbox" name="question4" value="john-quincy-adams"> John Quincy Adams</li>
+            <li class="option"><input type="radio" name="question4" value="george-washington"> George Washington</li>
+            <li class="option"><input type="radio" name="question4" value="john-adams"> John Adams</li>
+            <li class="option"><input type="radio" name="question4" value="john-quincy-adams"> John Quincy Adams</li>
           </ul>
         </div>
 
@@ -65,8 +67,14 @@
 
         <div class="question">
           <h2>Question 6: Which U.S. state is famous for its "Mystery Spot"?</h2>
-          <input class="textInput" type="text" name="question6" placeholder="Enter your answer">
-        </div>
+          <select name="question6" id="question6">
+              <option value="">Select an option</option>
+              <option value="california">California</option>
+              <option value="new-york">New York</option>
+              <option value="texas">Texas</option>
+              <option value="new-york">Illinois</option>
+          </select>
+      </div>
         <div id="errorQuestionValidation" style="color: red;"></div>
         <div id="buttonContainer">
           <button>Submit Quiz</button>
